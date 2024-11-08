@@ -1,7 +1,7 @@
 
-let num1 = parseInt(prompt("Бірінші санды енгізіңіз:"));
-let num2 = parseInt(prompt("Екінші санды енгізіңіз:"));
-let num3 = parseInt(prompt("Үшінші санды енгізіңіз:"));
+let num1 = +(prompt("Бірінші санды енгізіңіз:"));
+let num2 = +(prompt("Екінші санды енгізіңіз:"));
+let num3 = +(prompt("Үшінші санды енгізіңіз:"));
 
 let maxNumber;
 
@@ -19,4 +19,4 @@ switch (true) {
 }
 
 
-console.log("Ең үлкен сан: " + maxNumber);
+alert("Ең үлкен сан: " + maxNumber);
